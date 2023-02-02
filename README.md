@@ -17,7 +17,7 @@ Das Paket besteht aus folgenden Teilen:
 
 ## USBWebserver V8.6
 
-Ein Freewaretool für das Starten, Stoppen und Verwalten eines Apache Webserver und einer MySQL Datenbankserver Instanz.
+Ein Freewaretool für das Starten, Stoppen und Verwalten eines Apache Webservers und einer MySQL Datenbankserver Instanz.
 
 Geschrieben von Leon de Vries mit Design von Bart Boerendans
 
@@ -56,9 +56,9 @@ Mehr Informationen: https://www.phpmyadmin.net/
 | User         | root                        |
 | Passwort     | usbw                        |
 
-Diese portable Kanboard Version verwendet das dateibasierend SQLite3. MySQL ist hier nur dabei, weil es zum USBWebserver Package gehört.
+Diese portable Kanboard Version verwendet das dateibasierende SQLite3. MySQL ist hier nur dabei, weil es zum USBWebserver Package gehört.
 
-Wenn bei der Anmeldung eine Fehlermeldung erscheint: Im Browser ein *reload* durchführen und noch einmal anmelden. Das liegt daran, dass die DB Files (initial ca. 80 MB) noch nicht angelegt waren, um das Archiv möglichst klein zu halten.
+Wenn bei der ersten Anmeldung eine Fehlermeldung erscheint: Im Browser ein *reload* durchführen und noch einmal anmelden. Das liegt daran, dass die DB Files (initial ca. 80 MB) noch nicht angelegt waren.
 
 ## Kanboard V 1.2.25
 
@@ -159,10 +159,11 @@ Ein Tool das es erlaubt alle Übersetzungen, auch die die im Core verwendet werd
 - Oder als persönliches, lokales System (oder mobil auf einem USB Stick)
 - Das Webbackend kann auch für andere Systeme genutzt werden. WordPress lokal mit MySQL? Kein Problem...
 - phpMyAdmin als Datenbank Administrationsoberfläche ist ebenfalls enthalten (für diese Kanboard Konfiguration nicht relavant, da SQLite3 verwendet wird)
+- Zusammen mit Visual Studio Code ein optimales Package für Entwickler die am Core mitwirken oder PlugIns schreiben und verbessern
 
 ## Schnellstart
 
-Zip File des Pakets herunterladen und entpacken. Zielordner spielt keine Rolle. Empfehlung: keine Leerzeichen im Gesamtverzeichnisnamen. Nicht zu tief verzweigt. Beispiel:
+**Alle** Zip Files des Pakets herunterladen und entpacken. Github erlaubt max. 25 Mb pro Datei, daher war eine Aufteilung erforderlich. Der Zielordner spielt keine Rolle. Empfehlung: keine Leerzeichen im Gesamtverzeichnisnamen. Nicht zu tief verzweigt. Beispiel:
 
 c:\tools\kanboardportable
 

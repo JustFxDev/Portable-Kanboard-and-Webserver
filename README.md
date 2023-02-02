@@ -167,7 +167,7 @@ Ein Tool das es erlaubt alle Übersetzungen, auch die die im Core verwendet werd
 
 c:\tools\kanboardportable
 
-![assets/image-20230202215503444](./assets/image-20230202215503444.png)
+![assets/image-20230202215503444](./assets/image-20230202215503442.png)
 
 Nachdem das Archiv entpackt wurde reicht es die `usbwebserver.exe` auszuführen. Wenn das ohne Probleme geklappt hat, dann sollte das wie folgt angezeigt werden:
 

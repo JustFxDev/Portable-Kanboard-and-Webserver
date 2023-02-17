@@ -13,6 +13,39 @@ Willkommen zur portablen Version des Kanban Tools *Kanboard*.
 
 ![assets/image-20230202221431513](./assets/image-20230202221431513.png)
 
+## Schnellstart
+
+Lade die aktuellste Version von [KanboardPortable.zip](https://github.com/JustFxDev/Portable-Kanboard-and-Webserver/releases) aus dem Releasebereich herunter und entpacke das Archiv. Der Zielordner spielt keine Rolle. Empfehlung: keine Leerzeichen im Gesamtverzeichnisnamen. Nicht zu tief verzweigt. Beispiel:
+
+c:\tools\kanboardportable
+
+![assets/image-20230202215503444](./assets/image-20230202215503442.png)
+
+Nachdem das Archiv entpackt wurde reicht es die `usbwebserver.exe` auszuführen. Wenn das ohne Probleme geklappt hat, dann sollte das wie folgt angezeigt werden:
+
+![assets/image-20230202220142473](./assets/image-20230202220142473.png)
+
+MySQL benötigen wir nicht, aber der Apache Server sollte einen grünen Haken aufweisen. Nach dem Start der Serverkomponenten wird automatisch auch der lokale Browser gestartet, der dann die Kanboard Anmeldung anzeigt:
+
+
+![assets/image-20230202220341057](./assets/image-20230202220341057.png)
+
+Die Anmeldedaten lauten wie folgt:
+
+- Name: **admin**
+
+- Passwort: **admin!**
+
+Für den Einstieg kann dann das Beispielprojekt *myProjekto* ausgewählt werden:
+
+![assets/image-20230202220558501](./assets/image-20230202220558501.png)
+
+
+
+oder alternativ dieser Link verwendet werden: http://localhost/?controller=BoardViewController&action=show&project_id=6
+
+## Was ist enthalten?
+
 Das Paket besteht aus folgenden Teilen:
 
 ## USBWebserver V8.6
@@ -161,38 +194,6 @@ Ein Tool das es erlaubt alle Übersetzungen, auch die die im Core verwendet werd
 - phpMyAdmin als Datenbank Administrationsoberfläche ist ebenfalls enthalten (für diese Kanboard Konfiguration nicht relavant, da SQLite3 verwendet wird)
 - Zusammen mit Visual Studio Code ein optimales Package für Entwickler die am Core mitwirken oder PlugIns schreiben und verbessern
 
-## Schnellstart
-
-**Alle** Zip Files des Pakets herunterladen und entpacken. Github erlaubt max. 25 Mb pro Datei, daher war eine Aufteilung erforderlich. Der Zielordner spielt keine Rolle. Empfehlung: keine Leerzeichen im Gesamtverzeichnisnamen. Nicht zu tief verzweigt. Beispiel:
-
-c:\tools\kanboardportable
-
-![assets/image-20230202215503444](./assets/image-20230202215503442.png)
-
-Nachdem das Archiv entpackt wurde reicht es die `usbwebserver.exe` auszuführen. Wenn das ohne Probleme geklappt hat, dann sollte das wie folgt angezeigt werden:
-
-![assets/image-20230202220142473](./assets/image-20230202220142473.png)
-
-MySQL benötigen wir nicht, aber der Apache Server sollte einen grünen Haken aufweisen. Nach dem Start der Serverkomponenten wird automatisch auch der lokale Browser gestartet, der dann die Kanboard Anmeldung anzeigt:
-
-
-
-![assets/image-20230202220341057](./assets/image-20230202220341057.png)
-
-Die Anmeldedaten lauten wie folgt:
-
-- Name: **admin**
-
-- Passwort: **admin!**
-
-Für den Einstieg kann dann das Beispielprojekt *myProjekto* ausgewählt werden:
-
-![assets/image-20230202220558501](./assets/image-20230202220558501.png)
-
-
-
-oder alternativ dieser Link verwendet werden: http://localhost/?controller=BoardViewController&action=show&project_id=6
-
 ## Tipps
 
 - Wenn die Konfiguration von php oder Apache geändert werden soll: die entsprechenden Dateien liegen unter C:\Tools\KanboardPortable\\**settings** Die Dateien werden von dort beim Start des USBWebservers an die eigentlichen Stellen der anderen Programme kopiert. Es macht also keinen Sinn im php oder apache oder sonstigen Verzeichnissen Änderungen vorzunehmen. 
@@ -208,8 +209,12 @@ Autor
 
 - Die im Demoboard enthaltenen Bilder unterliegen folgender Lizenz: *CC-BY-SA 3.0 by Fx*
 
-- Unterstützung für dieses Projekt ist herzlich willkommen!
+- Unterstützung für dieses Projekt ist herzlich willkommen - Aktuell:
 
+  - Übersetzung dieses readme.md z. B. ins Englische
+  - Deine Verbesserungen
+  - ...
+  
   
 
 

@@ -1,6 +1,6 @@
 ![north_west](./assets/north_west.svg) Use the table of contents
 
-[![version](./assets/version.svg)](https://github.com/JustFxDev/ThemeMaestro/releases) [![license](./assets/maintained.svg)](https://github.com/JustFxDev/ThemeMaestro/graphs/contributors)
+[![version](./assets/version.svg)](https://github.com/JustFxDev/Portable-Kanboard-and-Webserver/releases) [![license](./assets/maintained.svg)](https://github.com/JustFxDev/Portable-Kanboard-and-Webserver/graphs/contributors)
 
 **:star: If you use it, you should star it on GitHub!** *It's the least you can do for all the work put into it!*
 

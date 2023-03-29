@@ -8,6 +8,7 @@ _(most recent changes are listed on top):_
 
 - Reworked readme.md
 - Added information how to update an existing portable version
+- Update to latest Kanboard version
 - Added various Kanboard plugins (s. list in README.md)
 - Updated a few Kanboard plugins to their latest versions
 - Added a list of all included Kanboad plugins and their versions

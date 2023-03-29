@@ -4,6 +4,13 @@
 
 _(most recent changes are listed on top):_  
 
+## v1.0.3
+
+- Reworked readme.md
+- Added various Kanboard plugins (s. list in README.md)
+- Updated a few Kanboard plugins to their latest versions
+- Added a list of all included Kanboad plugins and their versions
+
 ## v1.0.1
 
 - List of all available Kanboard plugins did not work because of a certification issue (Thanks to ThomasFis)
